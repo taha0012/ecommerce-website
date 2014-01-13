@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font: normal 100%/1.5 Georgia,serif; /*16px/24px */
+}
+
+ ::selection {
+	background-color: red;
+	color: #fff;
+}
+
+a,
+a:link {
+	color: red;
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(255,0,0,0,.5);
+	transition: all 200ms linear;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: pink;
+	border-bottom-color: pink;
+}
+
+a:visited {
+	color: fuchsia;
+	border-bottom-color: fuchsia;
+}
+
+h1, h2, h3, h4, h5, h6,
+p ul, ol, dl,
+table {
+	margin: 0 0 1.5rem;
+}
+
+.yotta {
+	font-size:2.28rem; /*36.48px / 54.72px */
+	line-height: 1.315;
+}
+
+.zetta {
+	font-size:2.027rem;
+}
+
+h1, .exa {
+	font-size:1.802rem;	
+}
+
+h2, .peta {
+	font-size:1.602rem;
+}
+
+h3, .tera {
+	font-size:1.424rem;
+}
+
+h4, giga {
+	font-size:1.266rem;
+}
+
+h5, .mega {
+	font-size: 1.125rem;
+}
+
+h6, .kilo {
+	font-size: 1rem;
+}
+
+small, .milli {
+	font-size:0.889rem;	
+}
+
+.micro {
+	font-size:0.79rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li:before {
+	content: "•";
+	color: #333;	
+	position: absolute;
+	text-align: right;
+	left: -1.3rem;
+}
