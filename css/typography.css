@@ -12,22 +12,22 @@ html {
 
 a,
 a:link {
-	color: red;
+	color: blue;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(255,0,0,0,.5);
-	transition: all 200ms linear;
+	border-bottom: 0.1em solid rgba(0,0,255,0,.5);
+	transition: all 220ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: pink;
-	border-bottom-color: pink;
+	color: #6CF;
+	border-bottom-color: #6CF;
 }
 
 a:visited {
-	color: fuchsia;
-	border-bottom-color: fuchsia;
+	color: #69F;
+	border-bottom-color: #000;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -82,8 +82,8 @@ ul {
 }
 
 ul li:before {
-	content: "•";
-	color: #333;	
+	content: "·";
+	color: #666;	
 	position: absolute;
 	text-align: right;
 	left: -1.3rem;
