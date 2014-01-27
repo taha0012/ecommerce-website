@@ -1,3 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.price {
+	background-color: #F63;
+	border-radius: 20px;
+	color: #FFF;
+	padding-left: 40%;
+}
