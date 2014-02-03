@@ -1,3 +1,108 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 10px;	
+	right: 5%;
+	
+	border-radius: 20px;
+	background: #fff url('../images/nav-icon.svg') no-repeat center center;
+	/* background-color || background-image || background-repeat || background-position*/
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #F90;
+}
+
+.nav-btn[data-state="active"] {
+	background: #ccc url('../images/nav-close.svg') no-repeat center center;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	display: block;
+	padding: 1rem;
+	text-align:center;
+	color: #fff;
+	text-decoration: none;
+	background-color: #F90;
+	/* border-width || border-style || border-color */
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #F60;
+	border: 2px dotted #FFF;
+}
+
+footer{
+	clear: both;
+}
+	
+@media only screen and (min-width: 33em){
+.nav{
+	overflow: auto;
+}
+
+.nav a{
+	font-size: 80%;
+}
+
+.nav li{
+	float: left;
+	width: 25%;
+}
+	
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: none;
+}
+
+}
+
+@media only screen and (min-width: 35em){
+.nav{
+	background-color: #F90;
+	text-align: center;
+}
+
+.nav li{
+	display: inline-block;
+	float: none;
+	margin: 0;
+	width:auto;
+}
+	
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	border-top: 0;
+	font-size: 100%;
+}
+
+}
+
+@media only screen and (min-width: 75em){
+.nav a,
+.nav a:link,
+.nav a:visited{
+	text-align: center;
+}	
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #F69;
+}
+}
