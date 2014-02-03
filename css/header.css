@@ -20,6 +20,10 @@
 	border: 2px dotted #FFF;
 }
 
+.nav li{
+	font-size: 120%;
+}
+
 	/* Toggle Nav*/
 
 .nav-top{
