@@ -16,16 +16,6 @@
 	/* background-color || background-image || background-repeat || background-position*/
 }
 
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active{
-	background-color: #F90;
-}
-
-.nav-btn[data-state="active"] {
-	background: #ccc url('../images/nav-close.svg') no-repeat center center;
-}
-
 .nav a, 
 .nav a:link,
 .nav a:visited{
