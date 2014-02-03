@@ -43,6 +43,7 @@
 .nav a:active{
 	background-color: #F60;
 	border: 2px dotted #FFF;
+	padding: 8px;
 }
 
 footer{
