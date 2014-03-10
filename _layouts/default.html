@@ -2,7 +2,8 @@
 <html lang="en-ca">
 <head>
 <meta charset="UTF-8">
-<title>Doll land</title>
+<title>{{page.title}} · Doll land</title>
+<meta name="description" content="{{page.meta}}"
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -33,18 +34,25 @@
     <nav class="unit unit-s-1 unit-m-1 unit-l-2-3">
       <ul class="list-group giga brand-family push-0 nav">
         <li class="list-group-item list-group-item-inline">
-          <a href="{{"site.baseurl}}/">Home</a>
+        	<a class"{% if page.url == '/' %}current{% endif %}" href="{{"site.baseurl}}/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{"site.baseurl}}/thank-you.html/">Thank you</a>
+        	<a class"{% if page.url contains 'thank-you' %}current{% endif %}" href="{{"site.baseurl}}/">Thank you</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{"site.baseurl}}/about.html/">about</a>
+        	<a class"{% if page.url == '/about/' %}current{% endif %}" href="{{"site.baseurl}}/">About</a>
         </li>
       </ul>
     </nav>
   </div>
 </header>
+
+{% if page.showbanner %}
+<div class="banner"> 
+	<h1>{{page.bannertext}}</h1>
+   </div>
+   {% endif %}
+   
 {{content}}
 
 </body>
