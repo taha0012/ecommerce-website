@@ -1,0 +1,27 @@
+---
+layout: default
+title: Dolls
+meta: Cute dolls which you can buy on this web site.
+---
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<h1>Stuffed toys</h1>
+	</div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+<p>Cute stuffed toy would heal you.</p>
+	</div>
+</div>
+
+<ul>
+	{% for dolls in site.pages %}
+    	{% if dolls.category == 'dolls' %}
+    		<li>
+           <a href="{{site.baseurl}}{{dolls.url}}">
+            	<img src="{{site.baseurl}}/images/{dolls.image}}" alt="">
+                {{dolls.name}}
+           	</a>
+        	</li>
+    	{% endif %}
+    {% endfor %}
+</ul>
