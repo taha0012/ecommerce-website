@@ -15,10 +15,10 @@ meta: Page for a stuffed teddy bear.
 
 <ul>
 	{% for doll in site.pages %}
-    	{% if doll.category == 'doll' %}
+    	{% if doll.type == 'bear' %}
     		<li>
            <a href="{{site.baseurl}}{{doll.url}}">
-            	<img src="{{site.baseurl}}/images/{doll.image}}" alt="">
+            	<img src="{{site.baseurl}}/image/{doll.image}}" alt="">
                 {{doll.name}}
            	</a>
         	</li>

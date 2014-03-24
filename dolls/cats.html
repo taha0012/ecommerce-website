@@ -9,13 +9,13 @@ meta: Page for a stuffed cat.
 <h1>Stuffed cat</h1>
 	</div>
     <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-<p>List for cute Stuffed teddy bears.</p>
+<p>List for cute Stuffed cats.</p>
 	</div>
 </div>
 
 <ul>
 	{% for doll in site.pages %}
-    	{% if doll.category == 'doll' %}
+    	{% if doll.type == 'cat' %}
     		<li>
            <a href="{{site.baseurl}}{{doll.url}}">
             	<img src="{{site.baseurl}}/images/{doll.image}}" alt="">
