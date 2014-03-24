@@ -8,4 +8,6 @@ A demonstration repo for in class ecommerce website design system.
 
 © 2014 Mio Tahara
 
-Licensed under the [MIT License](LICENSE).
+Code Licensed under the [MIT License](LICENSE).
+
+Design and imagery licensed under [Creative Commons Attribution 4.0 International License](https://creativecommons
