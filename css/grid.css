@@ -3,7 +3,6 @@
 	#FFF white */
 
 .grid {
-	border: 1px solid red;
 	overflow: hidden;
 }
 
@@ -13,7 +12,6 @@
 }
 
 .unit {
-	background-color: #fff;
 	float: left;
 	width: 33.3333%;
 }
