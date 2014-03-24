@@ -2,15 +2,15 @@
 layout: dolls
 category: doll
 name: Black cat
-kind_of_animal: cat
+type: cat
 molding: nonreal
-image: cat/cat1.jpg
+image: Black cat/cat1.jpg
 ---
 
-Cat has...
+Black cat
 
-- cute curvy shapes 
-- long tale
-- triangle ears
+Size: 20cm
+price: $19.80
 
-![Stuffed cat](http://hinokiya.biz/blog/IMG_3248_1.jpg)
+![Black cat](http://hinokiya.biz/blog/IMG_3248_1.jpg)
+     <a class="btn giga" href="{{site.baseurl}}/cart/">Buy Now</a>

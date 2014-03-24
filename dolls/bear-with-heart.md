@@ -1,16 +1,16 @@
 ---
 layout: dolls
+type: bear
 category: doll
 name: Bear with heart
-kind_of_animal: bear
 molding: nonreal
-image: bear with heart/bear2.jpg
+image: bear with heart/bear1.jpg
 ---
 
-Bear has...
+Bear with heart
 
-- round face
-- short tale
-- round ears
+size: 65cm
+price: $39.99
 
 ![Stuffed bear](http://www.teddy1.jp/shopimages/duffyuc/002000000028.jpg)
+     <a class="btn giga" href="{{site.baseurl}}/cart/">Buy Now</a>
