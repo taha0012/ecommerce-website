@@ -5,6 +5,8 @@ meta: "Cute dolles for kids: stuffed toy, dolls"
 showbanner: yes
 bannertext: Doll land!
 ---
+
+<main role="main">
 <h3>Welcome to Doll land! You can find the cute doll in this website.</h3>
 <p>Click the type of animal which you want to see.</p>
 
@@ -13,11 +15,16 @@ bannertext: Doll land!
 	<div class="gutter unit s-1 unit-m-1-3 unit-l-1-3">
     	{% include promo-small.html title="teddy bear" description="teddy bear" image="bear1.jpg" %}
            <a class="btn giga" href="{{site.baseurl}}/dolls/bears/">Teddy bear</a>
-
     </div>
-
+    
+    <div class="gutter unit s-1 unit-m-1-3 unit-l-1-3">
+    	{% include promo-small.html title="rabbit" description="Stuffed rabbit" image="rabbit1.jpg" %}
+           <a class="btn giga" href="{{site.baseurl}}/dolls/rabbits/">Stuffed rabbit</a>
+    </div>
+    
 	<div class="gutter unit s-1 unit-m-1-3 unit-l-1-3">
     	{% include promo-small.html title="Stuffed cat" description="Stuffed cat" image="cat2.jpeg" %}
-        	<a class="btn giga" href="{{site.baseurl}}/dolls/cats/">Stuffed Cats</a>
+        	<a class="btn giga" href="{{site.baseurl}}/dolls/cats/">Stuffed Cat</a>
             
     </div>
+</main>

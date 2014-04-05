@@ -177,6 +177,17 @@ a:active {
   border-bottom-color: #b42885;
 }
 
+a:hover,
+a:active {
+	/*we can remove the outline from mouse-based actions only */
+	outline: none;
+}
+
+a:focus {
+	/* The outlines MUST be on the focus state for keyboard access*/
+	outline: 2px solid #000;
+}
+
 sup,
 sub {
   line-height: 1;
