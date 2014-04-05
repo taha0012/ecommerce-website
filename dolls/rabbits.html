@@ -1,0 +1,27 @@
+---
+layout: default
+title: Rabbits
+meta: Page for a stuffed rabbit.
+---
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<h1>Stuffed rabbits</h1>
+	</div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+<p>List for cute Stuffed rabbits.</p>
+	</div>
+</div>
+
+<ul>
+	{% for doll in site.pages %}
+    	{% if doll.type == 'rabbit' %}
+    		<li>
+           <a href="{{site.baseurl}}{{doll.url}}">
+            	<img src="{{site.baseurl}}/image/{doll.image}}" alt="">
+                {{doll.name}}
+           	</a>
+        	</li>
+    	{% endif %}
+    {% endfor %}
+</ul>
