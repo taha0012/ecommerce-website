@@ -1,18 +1,18 @@
- ---
- ----
+---
+---
  
- {% include css/typography.css %}
- {% include css/buttons.css %}
- {% include css/forms.css %}
- {% include css/common.css %}
- {% include css/embed.css %}
- {% include css/grid.css %}
- {% include css/icons.css %}
- {% include css/list-group.css %}
- {% include css/media-object.css %}
- {% include css/header.css %}
- {% include css/footer.css %}
- {% include css/product-list-item.css %}
- {% include css/product-list.css %}
- {% include css/product-details.css %}
- {% include css/promos.css %}
+{% include css/typography.css %}
+{% include css/buttons.css %}
+{% include css/forms.css %}
+{% include css/common.css %}
+{% include css/embed.css %}
+{% include css/grid.css %}
+{% include css/icons.css %}
+{% include css/list-group.css %}
+{% include css/media-object.css %}
+{% include css/header.css %}
+{% include css/footer.css %}
+{% include css/product-list-item.css %}
+{% include css/product-list.css %}
+{% include css/product-details.css %}
+{% include css/promos.css %}
