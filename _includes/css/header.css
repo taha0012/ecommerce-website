@@ -5,16 +5,18 @@
 	#F3F Dark Pink
 	#F9F Pink
 	#FCF Linght Pink 
-	#F90 Orange */
+	#F90 Orange
+	#F60 dark orange */
 
 .nav a, 
 .nav a:link,
 .nav a:visited{
 	display: block;
-	padding: 1rem;
+	padding: .9rem;
 	text-align:center;
 	color: #fff;
 	text-decoration: none;
+	border: 0; 
 	background-color: #F90;
 	/* border-width || border-style || border-color */
 }
@@ -23,8 +25,7 @@
 .nav a:focus,
 .nav a:active{
 	background-color: #F60;
-	border: 2px dotted #FFF;
-	padding: 8px;
+	padding: 9px;
 }
 
 .nav li{
@@ -34,7 +35,6 @@
 	/* Toggle Nav*/
 
 .nav-top{
-	max-height: 0;
 	-moz-transition: all 250ms linear;
 	-o-transition: all 250ms linear;
 	-webkit-transition: all 250ms linear;
@@ -68,6 +68,7 @@ header{
 .nav a:link,
 .nav a:visited{
 	border-top: 0;
+	border: 0;
 	font-size: 100%;
 }
 
@@ -80,4 +81,22 @@ header{
 .banner {
 	background-image:url(../image/doll.jpg);
 	background-size: 10%;
+}
+
+.keyword {
+padding:.25rem;
+border:none;
+background-color:#FAF8F8;
+}
+
+.search {
+display:inline-block;
+background-color:#FAF8F8;
+border-radius:4px;
+box-shadow:1px 1px 3px rgba(0,0,0,.5) inset;
+color:#fff;
+margin:.5rem;
+float:right;
+display:inline;
+margin-top:-1.5rem;
 }
