@@ -1,18 +1,24 @@
 # humanstxt.org
 
 # TEAM
-
-
+Developer/Designer: Mio Tahara
+Site: http://taha0012.github.io/ecommerce-website/
+Location: Ottawa, Canada
 
 ---
 
 # THANKS
 
 Public domain images from copyrightexpired.com
-Spinosaurus icon by Dactrtr; http://thenounproject.com/term/spinosaurus/24614/
+doll icon by Yuhi Ichino; http://http://w-c.sakura.ne.jp/
 
 ---
 
 # TECHNOLOGY
+
+Last update: 2014/4/21
+Standards: HTML5, CSS3
+Components: Jekyll etc...
+Software: Adobe, Github, terminal
 
 
